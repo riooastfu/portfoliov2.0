@@ -5,18 +5,18 @@ import profile from '../assets/img/iu.jpeg'
 export default function Home() {
   return (
     <div class="container mx-auto">
-      <div className="content h-screen flex flex-col justify-center items-center -z-10 relative -top-[200px] md:flex-row">
-        <div class="relative w-96 lg:w-1/3">
-          <svg className='blob' viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+      <div id='home' className="content h-screen flex flex-col justify-center items-center md:flex-row">
+        <div class="relative w-96 -top-[50px] lg:top-[0px] lg:w-1/3">
+          <svg className='blob scale-100' viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
             <defs>
               <clipPath id="shape">
-                <path d="M423,283Q398,316,385.5,351.5Q373,387,336,394Q299,401,265,416Q231,431,196.5,417Q162,403,120.5,388.5Q79,374,67,332.5Q55,291,55.5,250Q56,209,78.5,175.5Q101,142,134.5,125Q168,108,197.5,68Q227,28,269.5,44Q312,60,343.5,85.5Q375,111,418,133.5Q461,156,454.5,203Q448,250,423,283Z" fill="#d1d8e0"></path>
+                <path d="M450,290.5Q432,331,418,376.5Q404,422,356.5,426.5Q309,431,271,420.5Q233,410,199,403.5Q165,397,137,374.5Q109,352,63.5,325.5Q18,299,14,249Q10,199,37,157Q64,115,114,108.5Q164,102,195,60Q226,18,261.5,61.5Q297,105,337,107Q377,109,390.5,145.5Q404,182,436,216Q468,250,450,290.5Z" fill="#d1d8e0"></path>
               </clipPath>
             </defs>
-            <image x="0" y="0" width="100%" height="100%" clip-path="url(#shape)" xlinkHref="https://drive.google.com/uc?export=view&id=1TfQp6eHRBD0fq5p-nMwsMyHE2hL94B6y" preserveAspectRatio="none"></image>
+            <image x="0" y="-20" width="100%" height="100%" clipPath="url(#shape)" xlinkHref="https://drive.google.com/uc?export=view&id=1TfQp6eHRBD0fq5p-nMwsMyHE2hL94B6y" preserveAspectRatio="none"></image>
           </svg>
         </div>
-        <div class="text-center lg:w-1/3 lg:text-left">
+        <div class="relative text-center -top-[60px] lg:top-[0px] lg:w-1/3 lg:text-left">
           <h1 className="text-4xl font-bold">Hi folks!</h1>
           <p>Welcome to my portfolio webpage <span>&#128075;</span>.</p>
           <button className="btn-sm btn-primary rounded-full shadow-xl">Lets begin!</button>

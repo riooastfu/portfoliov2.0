@@ -1,10 +1,5 @@
-.blob-container {
-    width: 450px;
-    height: 450px;
-}
-
 .blob path {
-    animation: blob 30s linear infinite;
+    animation: blob 60s linear infinite;
 }
 
 @keyframes blob {
