@@ -9,7 +9,7 @@ export default function Home() {
         <div className="flex flex-col min-h-screen justify-center items-end gap-y-2">
           <h1 className="text-4xl font-bold">Hi folks!</h1>
           <p>Welcome to my portfolio webpage <span>&#128075;</span>.</p>
-          <button className="btn btn-primary">Let's begin!</button>
+          <button className="btn btn-primary">Lets begin!</button>
         </div>
         <div className="flex flex-row min-h-screen justify-center items-center">
           <div className="blob-container flex justify-center items-center">
