@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Profile() {
     return (
-        <div>Halaman Profile</div>
+        <div>
+            <h1>Hello</h1>
+        </div>
     )
 }

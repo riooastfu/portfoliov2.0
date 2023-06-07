@@ -2,6 +2,8 @@ import React from 'react'
 
 export default function Desc() {
     return (
-        <div>Ini Halaman Description</div>
+        <div>
+            <h1>Hello</h1>
+        </div>
     )
 }
