@@ -5,7 +5,7 @@ import profile from '../assets/img/iu.jpeg'
 export default function Home() {
   return (
     <div class="container mx-auto">
-      <div className="content h-screen flex flex-col justify-center items-center -z-10 relative -top-[45px] md:flex-row">
+      <div className="content h-screen flex flex-col justify-center items-center -z-10 relative -top-[70px] md:flex-row">
         <div class="relative w-96 lg:w-1/3">
           <svg className='blob' viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
             <defs>
