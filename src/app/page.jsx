@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div class="container mx-auto">
       <div id='home' className="content h-screen flex flex-col justify-center items-center md:flex-row">
-        <div class="relative w-96 -top-[50px] lg:top-[0px] lg:w-1/3">
+        <div class="relative w-96 lg:w-1/3">
           <svg className='blob scale-100' viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
             <defs>
               <clipPath id="shape">
@@ -16,10 +16,10 @@ export default function Home() {
             <image x="0" y="-20" width="100%" height="100%" clipPath="url(#shape)" xlinkHref="https://drive.google.com/uc?export=view&id=1TfQp6eHRBD0fq5p-nMwsMyHE2hL94B6y" preserveAspectRatio="none"></image>
           </svg>
         </div>
-        <div class="relative text-center -top-[60px] lg:top-[0px] lg:w-1/3 lg:text-left">
+        <div class="relative text-center lg:w-1/3 lg:text-left">
           <h1 className="text-4xl font-bold">Hi folks!</h1>
           <p>Welcome to my portfolio webpage <span>&#128075;</span>.</p>
-          <button className="btn-sm btn-primary rounded-full shadow-xl">Lets begin!</button>
+          <a href='#home' className="btn btn-primary rounded-full shadow-xl">Lets begin!</a>
         </div>
       </div>
     </div>
