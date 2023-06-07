@@ -26,7 +26,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div id='profile' className="content h-screen flex flex-col justify-center items-center md:flex-row">
+      {/* <div id='profile' className="content h-screen flex flex-col justify-center items-center md:flex-row">
         <div class="relative w-96 -top-[50px] lg:top-[0px] lg:w-1/3">
           <svg className='blob scale-100' viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
             <defs>
@@ -42,7 +42,7 @@ export default function Home() {
           <p>Welcome to my portfolio webpage <span>&#128075;</span>.</p>
           <button className="btn-sm btn-primary rounded-full shadow-xl">Lets begin!</button>
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }
