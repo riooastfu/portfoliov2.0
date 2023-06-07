@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {
-    const [theme, setTheme] = useState(localStorage.getItem("theme") ? localStorage.getItem("theme") : "light");
+    const [theme, setTheme] = useState("light");
 
     useEffect(() => {
         localStorage.setItem("theme", theme);
